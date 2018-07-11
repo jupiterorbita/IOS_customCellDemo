@@ -14,6 +14,7 @@
 		0EC553CE20F69A9700D70EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC553CD20F69A9700D70EAA /* Assets.xcassets */; };
 		0EC553D120F69A9700D70EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC553CF20F69A9700D70EAA /* LaunchScreen.storyboard */; };
 		0EC553D920F6A10500D70EAA /* AddEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC553D820F6A10500D70EAA /* AddEditVC.swift */; };
+		0EC553DB20F6A9E900D70EAA /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC553DA20F6A9E900D70EAA /* ReviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0EC553D020F69A9700D70EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC553D220F69A9700D70EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC553D820F6A10500D70EAA /* AddEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditVC.swift; sourceTree = "<group>"; };
+		0EC553DA20F6A9E900D70EAA /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0EC553C320F69A9500D70EAA /* AppDelegate.swift */,
 				0EC553C520F69A9500D70EAA /* ViewController.swift */,
 				0EC553C720F69A9500D70EAA /* Main.storyboard */,
+				0EC553DA20F6A9E900D70EAA /* ReviewCell.swift */,
 				0EC553D820F6A10500D70EAA /* AddEditVC.swift */,
 				0EC553CD20F69A9700D70EAA /* Assets.xcassets */,
 				0EC553CF20F69A9700D70EAA /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EC553C620F69A9500D70EAA /* ViewController.swift in Sources */,
+				0EC553DB20F6A9E900D70EAA /* ReviewCell.swift in Sources */,
 				0EC553C420F69A9500D70EAA /* AppDelegate.swift in Sources */,
 				0EC553D920F6A10500D70EAA /* AddEditVC.swift in Sources */,
 				0EC553CC20F69A9500D70EAA /* customCellDemo.xcdatamodeld in Sources */,
