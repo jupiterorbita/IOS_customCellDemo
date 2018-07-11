@@ -9,7 +9,6 @@
 import UIKit
 
 class AddEditVC: UIViewController {
-
     
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var ratingTextField: UITextField!
@@ -17,19 +16,15 @@ class AddEditVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
-
-   
 
     //cancel button
     @IBAction func cancelPressed(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
     
-    // done button
+    // save button
     @IBAction func savePressed(_ sender: UIBarButtonItem) {
         performSegue(withIdentifier: "UnwindToVC", sender: self)
     }
-    
 }

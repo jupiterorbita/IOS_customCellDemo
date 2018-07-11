@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -32,13 +31,7 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
 }
-
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
